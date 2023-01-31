@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "Does it Run",
+      "setup": "g++ main.cpp blackjack.cpp cards.cpp",
+      "run": "./a.out",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    }
+  ]
+}
