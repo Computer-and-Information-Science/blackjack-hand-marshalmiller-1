@@ -2,10 +2,10 @@
 #include "cards.h"
 
 
-Class BlackjackHand : public Hand {
+class BlackjackHand : public Hand {
   public:
   int score() const;
 };
 
 
-int play (Deck& deck, int wager;
+int play (Deck&deck, int wager);

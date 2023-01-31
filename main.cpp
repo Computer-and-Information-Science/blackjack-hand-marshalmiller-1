@@ -13,9 +13,9 @@ int main() {
   h.insert(d.deal());
   h.insert(d.deal());
   cout << h.str() << " " << h.score() << endl;
-  for ( int i = 0, i < 5; i++ {
+  for ( int i = 0; i < 4; i++) {
     h.insert(d.deal());
-    cout << h.str() << " " << h.score << endl;
+    cout << h.str() << " " << h.score() << endl;
     
   }
 

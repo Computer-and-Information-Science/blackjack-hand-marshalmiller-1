@@ -121,7 +121,7 @@ public:
     *
     * @param index Index of the card to retrieve
     * @return The card at the given index
-    */0
+    */
   Card card (int index) const { return cards[index]; }
 
   /**
